@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Ejm: Jorge" id="nombre" name="inputnombre" />
+                </p>
+                <p>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" placeholder="Ejm: Levano" id="apellido" name="inputapellido" value="Levano" />
+                </p>
+                <p>
+                    <label for="fechaNac">Fecha de Nac:</label>
+                    <input type="date" id="fechaNac" name="fechaNac">
+                </p>
+                <label for="sueldo">Sueldo</label>
+                <input type="number" placeholder="Min.S/.100 Max.S/.999" id="sueldo" name="sueldo" step="100">
+                </p>
+
+                <label for="pwd">Contraseña</label>
+                <input type="password" id="pwd" name="pwd">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" value="@gmail.com" id="email">
+                </p>
+                <p>
+                    <label for="miColor">Mi color Favorito</label>
+                    <input type="color" id="miColor" name="miColor">
+                </p>
+                <p>
+                    <label for="horaReg">Hora de Resgistros</label>
+                    <input type="time" id="horaReg" name="horaReg">
+                </p>
+                <p>
+                    <p>
+                        <label for="">Elija Turno</label>
+                    
+                </p>
+                <p>
+                    <label for="turnodia">Mañana</label>
+                    <input type="radio" name="Turno" id="turnodia" checked>
+                    |
+                    <label for="turnotarde">Tarde</label>
+                    <input type="radio" name="Turno" id="turnotarde">
+                    |
+                    <label for="turnonoche">Noche</label>
+                    <input type="radio" name="Turno" id="turnonoche">
+                </p>
+                <p>
+                    <label>Seleccione Materias</label>
+                </p>
+                <p>
+                    <label for="uxui">UX/UI</label>
+                    <input type="checkbox" id="uxui" name="uxui">
+                </p>
+                |
+                <p>
+                    <label for="git">Git</label>
+                    <input type="checkbox" id="git" name="git">
+                </p>
+                |
+                <p>
+                    <label for="DevOps">DevOps</label>
+                    <input type="checkbox" id="DevOps" name="DevOps">
+                </p>
+            
+                </p>
+                <button type="submit">Registrarse</button>
+                </p>
+    
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
