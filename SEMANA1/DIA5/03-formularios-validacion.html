@@ -17,22 +17,25 @@
       <form>
         <p>
           <label for="nombre">Nombre:</label>
-          <input type="text" placeholder="Ejm: Jorge" id="nombre" name="inputnombre" />
+          <input type="text" placeholder="Ejm: Jorge" id="nombre" name="inputnombre" required minlength="3"
+            maxlength="10" autofocus tabindex="1"/>
+          
         </p>
         <p>
           <label for="apellido">Apellido:</label>
-          <input type="text" placeholder="Ejm: Levano" id="apellido" name="inputapellido" value="Levano" />
+          <input type="text" placeholder="Ejm: Levano" id="apellido" name="inputapellido" />
         </p>
         <p>
           <label for="fechaNac">Fecha de Nac:</label>
-          <input type="date" id="fechaNac" name="fechaNac">
+          <input type="date" id="fechaNac" name="fechaNac" tabindex="2">
         </p>
         <label for="sueldo">Sueldo</label>
         <input type="number" id="sueldo" name="sueldo" step="100">
         </p>
 
         <label for="pwd">Contraseña</label>
-        <input type="password" id="pwd" name="pwd">
+        <input type="password" id="pwd" name="pwd" required pattern="(?=.*\d)" title="Minimo 8">
+        <small>Minimo 6 y Maximo 15 caracteres</small>
         </p>
         <p>
           <label for="correo">Email</label>
@@ -77,8 +80,7 @@
             <p>
               <label for="mensaje">Escriba un Mensaje</label>
               <textarea name="mensaje" id="mensaje" cols="30" rows="10"
-                placeholder="Escriba un mensaje al administrador">
-            </textarea>
+                placeholder="Escriba un mensaje al administrador"></textarea>
             </p>
             <p>
               <label for="pais">Seleccione un Pais</label>
@@ -95,7 +97,7 @@
           <button type="submit">Registrarse</button>
           <button type="button">Regresar al menu</button>
           <button type="reset">Limpiar campos</button>
-        
+
         </p>
 
       </form>
