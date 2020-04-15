@@ -1,0 +1,34 @@
+@font-face{
+    font-family: pacifico-regular
+    src: url(./pacifico-regular.ttf)
+}
+h1 {
+    /* Alineamiento de textos y no de ELEMENTOS */
+    text-align: center;
+    background-color: aqua;
+    font
+}
+
+p:not(.texto-footer):not(.pacifico) {
+    /* indenta o agrega sangria a la primera linea del texto */
+    text-indent: 40px;
+    /* espacio entre letra y letra de un texto */
+    letter-spacing: 5px;
+    /* espacio entre palabra y palabra */
+    word-spacing: 15px;
+    /* interlineado */
+    line-height: 20px;
+    
+}
+small{
+/* underline | overline | none | line-through */
+    text-decoration: underline
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: red;
+}

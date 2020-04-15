@@ -1,29 +1,45 @@
-/* Slector de nombre de etiqueta */
+/* Selector de nombre de etiqueta */
 
-span{
-/* Afecta a todos los span */
-color: tomato;
+span {
+    /* Afecta a todos los span */
+    color: tomato;
 }
 
-/* Selector multiple separado por comas(,) */
-li , p {
-    /* se lee los li´s Y los parrafos */
+/* Selector multiple separado por comas (,) */
+
+li, p {
+    /* Se lee, los li's Y los parrafos */
     color: slateblue;
 }
 
-/* Selector de hijos de un elemnto a cualquier nivel */
+/* Selector de hijos de un elemento a cualquier nivel */
 
-aside a{
+aside a {
     color: red;
 }
 
 /* Selector de hijos en primer nivel */
 
-article > h4{
+article>h4 {
     color: green;
 }
 
 /* Selector de ID */
-#titulo-dmovil{
+
+#titulo-dmovil {
     color: chocolate;
+}
+
+/* Selector de Clase */
+.lista-semanas{
+    color: grey;
+}
+
+/* Selector que incluyen las atributos de un elemento */
+
+input[type="text"]{
+    border: 1px solid red;
+}
+input[type="number"]{
+    border: 1px solid blue;
 }

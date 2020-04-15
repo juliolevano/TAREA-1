@@ -1,0 +1,30 @@
+/* Familia de fuente */
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* tamaño de letra  */
+/* El tamaño por defecto en las paginas es de 16px */
+
+p {
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    /* proporcion de negrita del texto */
+    /* valores de 100 a 800 o (normal bold) */
+    font-weight: bold;
+}
+
+small {
+    /* estilo de fuente */
+    /* normal | ablique | italic */
+    font-style: italic;
+}
+
+.texto-footer{
+    /* Propiedad de texto estilo SHORTHAND */
+    /* font-style, font-weight, font-size, font-family;*/
+    font: italic 100 10px Arial;
+}

@@ -1,0 +1,40 @@
+/* De cada grupo de hermanos al mismo nivel de li´s. Aplicar el color */
+li:nth-child(3) {
+    color: chocolate;
+}
+
+/* Seleccionando al primer elemento de un grupo de hermanos al mismo nivel */
+
+p:first-child {
+    color: crimson;
+}
+p:last-child{
+    color: blue;
+}
+
+/* Seeccionar todos los elementos pares de un grupo de hermanos al mismo nivel */
+
+/* impares */
+tr:nth-child(odd) {
+    background-color: tan;
+}
+
+/* pares */
+tr:nth-child(even) {
+    background-color: silver;
+}
+#tr-encabezado{
+    background-color: silver;
+}
+
+/* :not()=> interpretado como un "excepto" */
+/* Todos los elementos dentro de un ul a cualquier nivel excepto de los que tengan la clase seleccionado */
+
+section ul :not(.seleccionado){
+color: red;
+}
+
+/* todos loas parrafos excepto los que tengan la clase "grande" */
+h4:not(.letra-grande){
+    color: violet;
+    }
